@@ -97,7 +97,7 @@ def path_function():
     try:
         folder = sys.argv[1]
     except IndexError:
-        print('Enter valid path to the folder')
+        print('Enter valid path to the folder!')
     else:
         folder_for_scan = Path(folder)
         print(f'Start in folder {folder_for_scan.resolve()}')
